@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       {/* Top Section */}
-      <div className="flex flex-col md:flex-row justify-between bg-white mb-2 mt-20 px-6 md:px-12">
+      <div className="flex flex-col justify-between bg-white mb-2 mt-20 px-6 md:px-12">
         <div>
           <h1 className="text-[#3563E9] text-2xl font-bold">MORENT</h1>
           <p className="mt-4 leading-[1.5] text-sm text-[#90A3BF] max-w-[300px]">
@@ -12,33 +12,39 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-y-10 md:gap-x-28 mt-8 md:mt-0">
-          {/* About Section */}
-          <ul className="text-center md:text-left">
-            <h1 className="text-lg font-bold">About</h1>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">How it works</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Featured</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Partnership</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Business relation</li>
-          </ul>
+        {/* Links Section */}
+        <div className="mt-8 flex flex-col gap-y-10">
+          {/* About and Community - Horizontally aligned on small screens */}
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-x-12 md:flex-col">
+            {/* About Section */}
+            <ul className="text-center sm:text-left">
+              <h1 className="text-lg font-bold">About</h1>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">How it works</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Featured</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Partnership</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Business relation</li>
+            </ul>
 
-          {/* Community Section */}
-          <ul className="text-center md:text-left">
-            <h1 className="text-lg font-bold">Community</h1>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Events</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Blog</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Podcast</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Invite a friend</li>
-          </ul>
+            {/* Community Section */}
+            <ul className="text-center sm:text-left">
+              <h1 className="text-lg font-bold">Community</h1>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Events</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Blog</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Podcast</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Invite a friend</li>
+            </ul>
+          </div>
 
           {/* Socials Section */}
-          <ul className="text-center md:text-left">
-            <h1 className="text-lg font-bold">Socials</h1>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Discord</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Instagram</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Twitter</li>
-            <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Facebook</li>
-          </ul>
+          <div>
+            <ul className="text-center md:text-left">
+              <h1 className="text-lg font-bold">Socials</h1>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Discord</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Instagram</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Twitter</li>
+              <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Facebook</li>
+            </ul>
+          </div>
         </div>
       </div>
 
