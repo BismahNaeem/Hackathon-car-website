@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Links Section */}
         <div className="mt-8 flex flex-col gap-y-10">
           {/* About and Community - Horizontally aligned on small screens */}
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-x-12 md:flex-col">
+          <div className="sm:flex sm:gap-x-12 sm:justify-between">
             {/* About Section */}
             <ul className="text-center sm:text-left">
               <h1 className="text-lg font-bold">About</h1>
