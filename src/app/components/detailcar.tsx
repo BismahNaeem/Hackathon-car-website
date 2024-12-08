@@ -37,7 +37,7 @@ const YourComponent = () => {
             <Image src="/path-to-image1.jpg" alt="Image 1" className="h-full w-full object-cover" />
           </div>
           <div className="h-[100px] w-[100px] bg-gray-300 rounded-lg">
-            <img src="/path-to-image2.jpg" alt="Image 2" className="h-full w-full object-cover" />
+            <Image  src="/path-to-image2.jpg" alt="Image 2" className="h-full w-full object-cover" />
           </div>
           <div className="h-[100px] w-[100px] bg-gray-300 rounded-lg">
             <Image src="/path-to-image3.jpg" alt="Image 3" className="h-full w-full object-cover" />

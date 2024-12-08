@@ -13,7 +13,7 @@ const Confirmation: React.FC = () => {
 
       {/* Description */}
       <p className="mt-4 text-lg text-gray-600">
-        We're getting to the end, just a few more clicks and your retail is
+        We are getting to the end, just a few more clicks and your retail is
         ready!
       </p>
 

@@ -87,7 +87,7 @@ const RentalInfo: React.FC = () => {
       <div className="flex items-center gap-x-4">
         {/* Drop Off Image */}
         <div className="flex items-center gap-x-2">
-          <img
+          <Image
             src="path-to-your-dropoff-image.jpg"
             alt="Drop Off"
             className="h-12 w-12"
