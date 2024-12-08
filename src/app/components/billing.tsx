@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const RentalInfo: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const RentalInfo: React.FC = () => {
       <div className="flex items-center gap-x-4">
         {/* Pickup Image */}
         <div className="flex items-center gap-x-2">
-          <img
+          <Image
             src="path-to-your-pickup-image.jpg"
             alt="Pickup"
             className="h-12 w-12"

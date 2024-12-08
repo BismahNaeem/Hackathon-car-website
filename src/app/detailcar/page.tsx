@@ -1,8 +1,7 @@
 import React from 'react'
 import Category from '../components/category'
 import Detailcar from '../components/detailcar'
-import HeroSection from '../components/herosection'
-import Cards from '../components/cards'
+
 
 const page = () => {
   return (

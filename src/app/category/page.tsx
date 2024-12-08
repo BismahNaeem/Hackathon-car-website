@@ -2,7 +2,7 @@ import React from 'react'
 import Category from '../components/category'
 import Timebar from '../components/timebar'
 import HeroSection from '../components/herosection'
-import footer from '../components/layout/footer'
+
 const page = () => {
   return (
     <div>

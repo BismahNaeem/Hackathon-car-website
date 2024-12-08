@@ -22,7 +22,7 @@ const Header = () => {
         {/* Search Bar */}
         <div className="items-center w-full max-w-md border border-gray-300 rounded-full px-3 h-10 hidden md:flex">
           {/* Search Icon */}
-          <img
+          <Image
             src="/images/searchicon.png" // Replace with your search icon path
             alt="Search"
             className="w-5 h-5"
@@ -31,7 +31,7 @@ const Header = () => {
           <span className="flex-grow text-gray-500 pl-3">Search something here</span>
           {/* Additional Icon (on the right side) */}
           <div>
-            <img
+            <Image
               src="/images/filter.png" // Replace with your second icon path
               alt="Filter"
               className="w-5 h-5"
@@ -63,7 +63,7 @@ const Header = () => {
           {/* Search Bar - Centered */}
           <div className="flex items-center justify-center border border-gray-300  ml-34 rounded-full  px-4 h-10  w-3/4">
             {/* Search Icon (left side) */}
-            <img
+            <Image
               src="/images/searchicon.png" // Replace with your search icon path
               alt="Search"
               className="w-5 h-5"
@@ -71,7 +71,7 @@ const Header = () => {
             {/* Placeholder Text */}
             <span className="flex-grow text-gray-500 pl-3">Search something here</span>
             {/* Additional Icon (right side) */}
-            <img
+            <Image
               src="/images/filter.png" // Replace with your second icon path
               alt="Filter"
               className="w-5 h-5"

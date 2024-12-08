@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const PaymentMethod: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const PaymentMethod: React.FC = () => {
       <div className="flex justify-between items-center gap-x-4">
         {/* Left Side Image */}
         <div className="flex items-center gap-x-2">
-          <img
+          <Image
             src="path-to-your-picture.jpg"
             alt="Created Card"
             className="h-12 w-12"
@@ -29,7 +30,7 @@ const PaymentMethod: React.FC = () => {
         </div>
         {/* Right Side Logo */}
         <div className="flex items-center gap-x-2">
-          <img
+          <Image
             src="path-to-your-logo.jpg"
             alt="Logo"
             className="h-12 w-12"

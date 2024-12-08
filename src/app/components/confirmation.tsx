@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Confirmation: React.FC = () => {
   return (
     <div className="h-[700px] w-[900px] p-6 bg-white">
@@ -44,7 +44,7 @@ const Confirmation: React.FC = () => {
 
       {/* Image Section */}
       <div className="mt-8 ">
-        <img
+        <Image
           src="path-to-your-image.jpg"
           alt="Confirmation"
           className=" h-36 w-36 object-cover"

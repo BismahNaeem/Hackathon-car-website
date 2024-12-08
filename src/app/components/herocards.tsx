@@ -24,7 +24,7 @@ const RentalPlatform: React.FC = () => {
         </button>
 
         {/* Image */}
-        <img
+        <Image
           src="/images/car1.png"
           alt="Car Rental"
           className="mt-4 h-[100px] w-[300px] object-cover mx-auto"
@@ -50,7 +50,7 @@ const RentalPlatform: React.FC = () => {
         </button>
 
         {/* Image */}
-        <img
+        <Image
           src="/images/car2.png"
           alt="Car Rental"
           className="mt-2 h-[100px] w-[300px] object-cover mx-auto "
