@@ -32,7 +32,7 @@ const Header = () => {
           {/* Additional Icon (on the right side) */}
           <div>
             <Image
-              src="/images/filter.png" // Replace with your second icon path
+              src="/images/filter.png"
               alt="Filter"
               className="w-5 h-5"
             />
