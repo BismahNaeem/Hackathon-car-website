@@ -1,26 +1,27 @@
-import React from 'react'
-import Category from '../components/category'
-import Timebar from '../components/timebar'
-import HeroSection from '../components/herosection'
+import React from 'react';
+import Category from '../components/category';
+import Timebar from '../components/timebar';
+import HeroSection from '../components/herosection';
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-       <div><Category /></div>
-        <div className='absolute top-2 right-6 mt-10 '>
-            <Timebar />
-        </div>
-          {/* Importing HeroSection and forcing grid-cols-3 */}
-      <div className="  absolute space-x-34 top-2 pl-96 mt-52">
+    <div className="flex flex-col lg:flex-row gap-6 px-4 lg:px-10">
+      {/* Category Section */}
+      <div className="w-full lg:w-1/3">
+        <Category />
+      </div>
+
+      {/* Timebar Section */}
+      <div className="w-full lg:w-2/3">
+        <Timebar />
+      </div>
+
+      {/* Hero Section */}
+      <div className="w-full">
         <HeroSection />
-        
       </div>
-
-      </div>
-    
+    </div>
   );
-   
-  
-}
+};
 
-export default page
+export default Page;
