@@ -7,8 +7,7 @@ const Page = () => {
   return (
     <div className="flex flex-col px-4 lg:px-10">
       {/* Category Section */}
-      <div className="hidden lg:block w-full lg:w-1/3">
-        {/* Hidden on smaller screens and visible only on large screens */}
+      <div className="hidden lg:block w-full lg:w-1/3 border border-blue-500">
         <Category />
       </div>
 
