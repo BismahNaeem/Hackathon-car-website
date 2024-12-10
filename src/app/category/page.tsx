@@ -5,19 +5,19 @@ import HeroSection from '../components/herosection';
 
 const Page = () => {
   return (
-    <div className="flex flex-col px-4 lg:px-10">
-      {/* Category Section */}
-      <div className="hidden lg:block w-full lg:w-1/3 border border-blue-500">
+    <div className="flex flex-col lg:flex-row lg:px-10 px-4 space-y-6 lg:space-y-0 lg:space-x-6">
+      {/* Category Section (visible only on large screens) */}
+      <div className="hidden lg:block w-full lg:w-1/3">
         <Category />
       </div>
 
       {/* Timebar Section */}
-      <div className="w-full lg:w-2/3 mt-4 lg:mt-0">
+      <div className="w-full lg:w-1/3">
         <Timebar />
       </div>
 
       {/* Hero Section */}
-      <div className="w-full mt-6">
+      <div className="w-full lg:w-1/3">
         <HeroSection />
       </div>
     </div>
