@@ -30,7 +30,7 @@ const YourComponent = () => {
           {/* Content of the Right Side Div */}
           {/* <!-- Heart Icon --> */}
   <div className="flex justify-end">
-    <img src="/images/like.png" alt="Heart Icon" className="w-6 h-6" />
+    <Image src="/images/like.png" alt="Heart Icon" className="w-6 h-6" />
   </div>
 
   {/* <!-- Title --> */}
@@ -46,7 +46,7 @@ const YourComponent = () => {
 
   {/* <!-- Description --> */}
   <p className="text-gray-600 text-sm mt-4">
-    NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the
+    NISMO has become the embodiment of Nissan s outstanding performance, inspired by the most unforgiving proving ground, the
     <span className="italic">"race track"</span>.
   </p>
 
