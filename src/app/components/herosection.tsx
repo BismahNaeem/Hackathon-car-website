@@ -179,7 +179,7 @@ const HeroSection = () => {
 
   return (
     <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-[#F6F7F9] mb-8">
-=======
+
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-[#F6F7F9] mb-4">
 
       {cardData.map((card, index) => (
@@ -269,7 +269,7 @@ const HeroSection = () => {
   
   
 </div>
-=======
+
     </div>
 
   );

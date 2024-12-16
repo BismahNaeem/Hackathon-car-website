@@ -41,7 +41,7 @@ const Header = () => {
       <div className="hidden md:flex gap-x-3">
         <div className="flex items-center justify-center bg-white border border-gray-300 rounded-full h-8 w-8">
           <Image src="/images/heart.png" alt="" height={20} width={20} />
-=======
+
         {/* Search Bar */}
         <div className="items-center w-full max-w-md border border-gray-300 rounded-full px-3 h-10 hidden md:flex">
           {/* Search Icon */}
