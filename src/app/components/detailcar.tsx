@@ -30,7 +30,7 @@ const YourComponent = () => {
           {/* Content of the Right Side Div */}
           {/* <!-- Heart Icon --> */}
   <div className="flex justify-end">
-    <Image src="/images/like.png" alt="Heart Icon" className="w-6 h-6" />
+    <Image src="/images/like.png" alt="Heart Icon" height={100} width={500} className="w-6 h-6" />
   </div>
 
   {/* <!-- Title --> */}
