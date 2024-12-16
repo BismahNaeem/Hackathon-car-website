@@ -17,7 +17,7 @@ const Header = () => {
       {/* Logo */}
       <h1 className="text-[#3563e9] text-2xl font-bold">MORENT</h1>
 
-<<<<<<< HEAD
+
       {/* Search Bar */}
       <div className="hidden md:flex items-center w-full max-w-md border border-gray-300 rounded-full px-3 h-10">
         <Image
@@ -60,7 +60,7 @@ const Header = () => {
               className="w-5 h-5"
             />
           </div>
->>>>>>> 428884006acefb3dd16c8bc6a3f968736b5082ac
+
         </div>
         <div className="flex items-center justify-center bg-white border border-gray-300 rounded-full h-8 w-8">
           <Image src="/images/notification.png" alt="" height={20} width={20} />
@@ -118,7 +118,9 @@ const Header = () => {
           </SheetHeader>
         </SheetContent>
       </Sheet>
+      </div>
     </header>
+    
   );
 };
 
