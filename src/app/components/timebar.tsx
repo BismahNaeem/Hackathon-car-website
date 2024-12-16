@@ -4,7 +4,11 @@ import Image from 'next/image';
 const timebar = () => {
   return (
     <div className="flex justify-center bg-[#F6F7F9] p-4">
+<<<<<<< HEAD
       <div className="flex items-center justify-between  w-full max-w-4xl flex-col sm:flex-row gap-4">
+=======
+      <div className="flex items-center justify-between mt-8 w-full max-w-4xl flex-col sm:flex-row gap-4">
+>>>>>>> 428884006acefb3dd16c8bc6a3f968736b5082ac
         {/* Left div */}
         <div className="bg-white w-full sm:w-[450px] rounded-md shadow-lg p-4">
           <div className="flex items-center gap-x-1">

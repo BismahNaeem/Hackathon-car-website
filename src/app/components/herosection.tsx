@@ -165,7 +165,7 @@ const HeroSection = () => {
       title: 'Rolls Royce',
       subtitle: 'luxury',
       heartImage: '/images/heart.png',
-      carImage: '/images/car (10).png',
+      carImage: '/images/car7.png',
       gasImage: '/images/gas-station.png',
       gasText: '80l',
       manualImage: '/images/car (1).png',
@@ -178,7 +178,11 @@ const HeroSection = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-[#F6F7F9] mb-8">
+=======
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-[#F6F7F9] mb-4">
+>>>>>>> 428884006acefb3dd16c8bc6a3f968736b5082ac
       {cardData.map((card, index) => (
         <div key={index} className="bg-white h-[320px] w-[250px] mt-6 mx-auto rounded-md shadow-md">
           <div className="flex justify-between">
@@ -251,8 +255,8 @@ const HeroSection = () => {
             <button className="bg-[#3563E9] text-[#FFFFFF] rounded-sm h-10 w-[100px] mr-2">Rent Now</button></Link>
           </div>
         </div>
-
       ))}
+<<<<<<< HEAD
 
 
 <div className="  bg-gray-100 mb-12 mt-4  ml-[5rem] sm:ml-[15rem] lg:ml-[35rem] md:ml-[20rem]">
@@ -266,6 +270,9 @@ const HeroSection = () => {
   
   
 </div>
+=======
+    </div>
+>>>>>>> 428884006acefb3dd16c8bc6a3f968736b5082ac
   );
 };
 

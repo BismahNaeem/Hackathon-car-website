@@ -17,6 +17,7 @@ const Header = () => {
       {/* Logo */}
       <h1 className="text-[#3563e9] text-2xl font-bold">MORENT</h1>
 
+<<<<<<< HEAD
       {/* Search Bar */}
       <div className="hidden md:flex items-center w-full max-w-md border border-gray-300 rounded-full px-3 h-10">
         <Image
@@ -40,6 +41,26 @@ const Header = () => {
       <div className="hidden md:flex gap-x-3">
         <div className="flex items-center justify-center bg-white border border-gray-300 rounded-full h-8 w-8">
           <Image src="/images/heart.png" alt="" height={20} width={20} />
+=======
+        {/* Search Bar */}
+        <div className="items-center w-full max-w-md border border-gray-300 rounded-full px-3 h-10 hidden md:flex">
+          {/* Search Icon */}
+          <Image
+            src="/images/searchicon.png" // Replace with your search icon path
+            alt="Search"
+            className="w-5 h-5"
+          />
+          {/* Placeholder Text */}
+          <span className="flex-grow text-gray-500 pl-3">Search something here</span>
+          {/* Additional Icon (on the right side) */}
+          <div>
+            <Image
+              src="/images/filter.png"
+              alt="Filter"
+              className="w-5 h-5"
+            />
+          </div>
+>>>>>>> 428884006acefb3dd16c8bc6a3f968736b5082ac
         </div>
         <div className="flex items-center justify-center bg-white border border-gray-300 rounded-full h-8 w-8">
           <Image src="/images/notification.png" alt="" height={20} width={20} />
