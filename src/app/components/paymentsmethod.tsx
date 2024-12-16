@@ -24,6 +24,7 @@ const PaymentMethod: React.FC = () => {
           <Image
             src="path-to-your-picture.jpg"
             alt="Created Card"
+            height={100} width={100}
             className="h-12 w-12"
           />
           <p className="text-lg font-medium text-gray-700">Created Card</p>
@@ -33,6 +34,7 @@ const PaymentMethod: React.FC = () => {
           <Image
             src="path-to-your-logo.jpg"
             alt="Logo"
+            height={100} width={100}
             className="h-12 w-12"
           />
         </div>
@@ -100,10 +102,11 @@ const PaymentMethod: React.FC = () => {
         <div className="flex items-center gap-x-2">
           <div className="h-6 w-6 rounded-full border border-gray-500"></div>
           <p className="text-sm text-gray-700">PayPal</p>
-          <img
+          <Image
             src="path-to-your-paypal-logo.jpg"
             alt="PayPal"
             className="h-6 w-6"
+            height={100} width={100}
           />
         </div>
 
@@ -111,9 +114,10 @@ const PaymentMethod: React.FC = () => {
         <div className="flex items-center gap-x-2">
           <div className="h-6 w-6 rounded-full border border-gray-500"></div>
           <p className="text-sm text-gray-700">Bitcoin</p>
-          <img
+          <Image
             src="path-to-your-bitcoin-logo.jpg"
             alt="Bitcoin"
+            height={100} width={100}
             className="h-6 w-6"
           />
         </div>

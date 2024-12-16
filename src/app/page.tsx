@@ -1,16 +1,16 @@
 import React from 'react'
 import Herosection from './components/herosection'
-import HeroSection2 from './components/hero2'
+
 import Timebar from './components/timebar'
 import Herocards from './components/herocards'
-const page = () => {
+const page :React.FC = () => {
   return (
     <div>
-      <Herocards />
+       <Herocards />
        <Timebar />
-      <Herosection />
+     <div className=''><Herosection /></div>
     
-      <HeroSection2 />
+      
     </div>
   )
 }

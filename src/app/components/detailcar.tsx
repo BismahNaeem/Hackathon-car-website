@@ -20,7 +20,7 @@ const YourComponent = () => {
   
           {/* Car Image in the Center */}
           <div className="mt-4 flex justify-center items-center">
-            <Image src="/path-to-your-image.jpg" alt="Sports Car" className="w-auto h-auto" />
+            <Image src="/path-to-your-image.jpg" alt="Sports Car" height={100} width={100}className="w-auto h-auto" />
           </div>
         </div>
   
@@ -34,13 +34,13 @@ const YourComponent = () => {
         {/* Three Divs Below the Main Div */}
         <div className="flex  gap-x-8 mt-4 flex-wrap w-full">
           <div className="h-[100px] w-[100px] bg-gray-300 rounded-lg">
-            <Image src="/path-to-image1.jpg" alt="Image 1" className="h-full w-full object-cover" />
+            <Image src="/path-to-image1.jpg" alt="Image 1" height={100} width={100} className="h-full w-full object-cover" />
           </div>
           <div className="h-[100px] w-[100px] bg-gray-300 rounded-lg">
-            <Image  src="/path-to-image2.jpg" alt="Image 2" className="h-full w-full object-cover" />
+            <Image  src="/path-to-image2.jpg" alt="Image 2" height={100} width={100} className="h-full w-full object-cover" />
           </div>
           <div className="h-[100px] w-[100px] bg-gray-300 rounded-lg">
-            <Image src="/path-to-image3.jpg" alt="Image 3" className="h-full w-full object-cover" />
+            <Image src="/path-to-image3.jpg" alt="Image 3"height={100} width={100} className="h-full w-full object-cover" />
           </div>
         </div>
 
@@ -54,7 +54,7 @@ const YourComponent = () => {
         <div className="flex items-center gap-4 mb-4">
           {/* Circle Image */}
           <div className="w-[24px] h-[24px] rounded-full overflow-hidden">
-            <Image src="/path-to-your-image.jpg" alt="Reviewer" className="w-full h-full object-cover" />
+            <Image src="/path-to-your-image.jpg" alt="Reviewer" className="w-full h-full object-cover" height={100} width={100} />
           </div>
 
           {/* Reviewer Information */}
@@ -73,7 +73,7 @@ const YourComponent = () => {
         <div className="flex items-center gap-4 mb-4">
           {/* Circle Image */}
           <div className="w-[24px] h-[24px] rounded-full overflow-hidden">
-            <Image src="/path-to-your-image.jpg" alt="Reviewer" className="w-full h-full object-cover" />
+            <Image src="/path-to-your-image.jpg" alt="Reviewer" className="w-full h-full object-cover" height={100} width={100} />
           </div>
 
           {/* Reviewer Information */}
@@ -92,7 +92,7 @@ const YourComponent = () => {
         <div className="flex justify-center items-center gap-2 mt-6">
           <p className="text-blue-500 cursor-pointer">Show All</p>
           <div className="w-[24px] h-[24px] rounded-full overflow-hidden">
-            <Image src="/path-to-your-image.jpg" alt="Icon" className="w-full h-full object-cover" />
+            <Image src="/path-to-your-image.jpg" alt="Icon" className="w-full h-full object-cover"  height={100} width={100}/>
           </div>
         </div>
       </div>

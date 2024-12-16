@@ -27,6 +27,7 @@ const RentalPlatform: React.FC = () => {
         <Image
           src="/images/car1.png"
           alt="Car Rental"
+          height={100} width={100}
           className="mt-4 h-[100px] w-[300px] object-cover mx-auto"
         />
       </div>
@@ -53,6 +54,7 @@ const RentalPlatform: React.FC = () => {
         <Image
           src="/images/car2.png"
           alt="Car Rental"
+          height={100} width={100}
           className="mt-2 h-[100px] w-[300px] object-cover mx-auto "
           
         />
