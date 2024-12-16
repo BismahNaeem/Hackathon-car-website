@@ -2,8 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 const category = () => {
   return (
-    <div className='  bg-[#F6F7F9]'>
-        <div className='bg-white h-[1200px] w-[360px]'>
+    <div className=' hidden lg:block bg-[#F6F7F9]'>
+        <div className='bg-white h-[1200px] w-[360px] '>
             <div>
                 <p className='ml-6 text-[#90A3BF]'>Type</p>
                 <ul className='text-[#90A3BF] font-medium'>

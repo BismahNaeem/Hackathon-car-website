@@ -120,7 +120,7 @@ const HeroSection = () => {
                 </div>
               </div>
     
-              <div className="flex flex-row space-x-8">
+              <div className="  flex flex-row space-x-8">
                 <div>
                   <div className="flex">
                     <h1 className="font-bold text-2xl ml-2">{card.price}</h1>

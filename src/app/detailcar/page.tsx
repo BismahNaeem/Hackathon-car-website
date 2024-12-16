@@ -5,10 +5,12 @@ import Detailcar from '../components/detailcar'
 
 const page = () => {
   return (
-    <div>
-        <div><Category /></div>
-        <div className='absolute top-8  mt-20 pl-96'><Detailcar /></div>
-   
+    <div className='bg-gray-200'>
+            <div className='flex justify-between gap-8 '>
+   <div className=''> <Category /></div> 
+    <div  className='mt-4'><Detailcar />
+   </div>
+    </div>
  
 </div>
              
