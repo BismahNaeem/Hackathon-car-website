@@ -6,13 +6,14 @@ import Confirmation from '../components/confirmation'
 
 const page = () => {
   return (
-    <>
-    <div><Payment /></div>
-    <Billing />
-    <PaymentsMethod />
+    < div className='bg-gray-200'>
+    <div className='pt-4 rounded-lg'><Payment /></div>
+    <div className='pt-4 rounded-lg'><Billing /></div>
     
-    <Confirmation />
-    </>
+    <div className='pt-4 pb-4 rounded-lg'><PaymentsMethod /></div>
+    <div className='pt-8 pb-4 rounded-lg'><Confirmation /></div>
+    
+    </div>
   )
 }
 

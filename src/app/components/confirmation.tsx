@@ -45,8 +45,9 @@ const Confirmation: React.FC = () => {
       {/* Image Section */}
       <div className="mt-8 ">
         <Image
-          src="path-to-your-image.jpg"
+          src="/path-to-your-image.jpg"
           alt="Confirmation"
+          height={100}width={100}
           className=" h-36 w-36 object-cover"
         />
       </div>

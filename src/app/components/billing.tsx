@@ -22,8 +22,9 @@ const RentalInfo: React.FC = () => {
         {/* Pickup Image */}
         <div className="flex items-center gap-x-2">
           <Image
-            src="path-to-your-pickup-image.jpg"
+            src="/path-to-your-pickup-image.jpg"
             alt="Pickup"
+            height={100}width={100}
             className="h-12 w-12"
           />
           <p className="text-lg font-medium text-gray-700">PickUp</p>
@@ -88,8 +89,9 @@ const RentalInfo: React.FC = () => {
         {/* Drop Off Image */}
         <div className="flex items-center gap-x-2">
           <Image
-            src="path-to-your-dropoff-image.jpg"
+            src="/path-to-your-dropoff-image.jpg"
             alt="Drop Off"
+            height={100}width={100}
             className="h-12 w-12"
           />
           <p className="text-lg font-medium text-gray-700">Drop Off</p>

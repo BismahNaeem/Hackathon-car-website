@@ -2,7 +2,7 @@ import React from "react";
 
 const BillingInfo: React.FC = () => {
   return (
-    <div className="h-auto w-full bg-white p-6 flex flex-col space-y-6">
+    <div className="h-auto w-full  max-w-4xl bg-white p-6 flex flex-col space-y-6">
       {/* Header Section */}
       <div className="flex gap-x-72 items-center">
         {/* Billing Info Title */}
@@ -40,7 +40,7 @@ const BillingInfo: React.FC = () => {
             id="phoneNumber"
             type="text"
             placeholder="Phone Number"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px]  md:w-[386px] border border-gray-300 rounded-md px-3"
           />
         </div>
       </div>

@@ -5,7 +5,7 @@ const PaymentMethod: React.FC = () => {
   return (
     <div className="h-[596px] w-[852px] bg-white p-6 flex flex-col space-y-6">
       {/* Header Section */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between  items-center">
         {/* PaymentMethod Title */}
         <h1 className="text-2xl font-bold">Payment Method</h1>
         {/* Step 3 of 4 */}
@@ -22,7 +22,7 @@ const PaymentMethod: React.FC = () => {
         {/* Left Side Image */}
         <div className="flex items-center gap-x-2">
           <Image
-            src="path-to-your-picture.jpg"
+            src="/path-to-your-picture.jpg"
             alt="Created Card"
             height={100} width={100}
             className="h-12 w-12"
@@ -32,7 +32,7 @@ const PaymentMethod: React.FC = () => {
         {/* Right Side Logo */}
         <div className="flex items-center gap-x-2">
           <Image
-            src="path-to-your-logo.jpg"
+            src="/path-to-your-logo.jpg"
             alt="Logo"
             height={100} width={100}
             className="h-12 w-12"
@@ -51,7 +51,7 @@ const PaymentMethod: React.FC = () => {
             id="cardNumber"
             type="text"
             placeholder="Card Number"
-            className="h-[56px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] border bg-gray-200 border-gray-300 rounded-md px-3"
           />
         </div>
         {/* Explanation Date */}
@@ -63,7 +63,7 @@ const PaymentMethod: React.FC = () => {
             id="expirationDate"
             type="text"
             placeholder="00-MM-YY"
-            className="h-[56px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] border bg-gray-200 border-gray-300 rounded-md px-3"
           />
         </div>
       </div>
@@ -79,7 +79,7 @@ const PaymentMethod: React.FC = () => {
             id="cardHolder"
             type="text"
             placeholder="Card Holder"
-            className="h-[56px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] border bg-gray-200 border-gray-300 rounded-md px-3"
           />
         </div>
         {/* CVC */}
@@ -91,7 +91,7 @@ const PaymentMethod: React.FC = () => {
             id="cvc"
             type="text"
             placeholder="CVC"
-            className="h-[56px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] border bg-gray-200 border-gray-300 rounded-md px-3"
           />
         </div>
       </div>
@@ -103,7 +103,7 @@ const PaymentMethod: React.FC = () => {
           <div className="h-6 w-6 rounded-full border border-gray-500"></div>
           <p className="text-sm text-gray-700">PayPal</p>
           <Image
-            src="path-to-your-paypal-logo.jpg"
+            src="/path-to-your-paypal-logo.jpg"
             alt="PayPal"
             className="h-6 w-6"
             height={100} width={100}
@@ -115,7 +115,7 @@ const PaymentMethod: React.FC = () => {
           <div className="h-6 w-6 rounded-full border border-gray-500"></div>
           <p className="text-sm text-gray-700">Bitcoin</p>
           <Image
-            src="path-to-your-bitcoin-logo.jpg"
+            src="/path-to-your-bitcoin-logo.jpg"
             alt="Bitcoin"
             height={100} width={100}
             className="h-6 w-6"
