@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const Confirmation: React.FC = () => {
   return (
     <div className="h-[700px] w-[900px] p-6 bg-white">
@@ -37,9 +38,11 @@ const Confirmation: React.FC = () => {
         </div>
 
         {/* Rent Now Button */}
+        <Link
+        href="/lastpage">
         <button className="bg-blue-500 text-white h-[56px] w-36  rounded-md mt-6">
           Rent Now
-        </button>
+        </button></Link>
       </div>
 
       {/* Image Section */}
