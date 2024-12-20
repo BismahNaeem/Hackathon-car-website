@@ -13,12 +13,12 @@ import {
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-4 h-[60px] shadow-md bg-white">
+    <header className="flex items-center justify-between px-4 h-[60px]  shadow-md bg-white">
       {/* Logo */}
       <h1 className="text-[#3563e9] text-2xl font-bold">MORENT</h1>
 
       {/* Search Bar */}
-      <div className="hidden md:flex items-center w-full max-w-md border border-gray-300 rounded-full px-3 h-10">
+      <div className="hidden md:flex items-center w-full max-w-md border  border-gray-300 rounded-full px-3 h-10">
         <Image
           src="/images/searchicon.png"
           alt="Search"
@@ -53,7 +53,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Search Bar */}
-      <div className="flex md:hidden items-center justify-between border border-gray-300 rounded-full px-3 h-10 w-2/4 mx-auto">
+      <div className="flex md:hidden items-center justify-between border  border-gray-300 rounded-full px-3 h-10 w-2/4 mx-auto">
         <Image
           src="/images/searchicon.png"
           alt="Search"
@@ -76,21 +76,8 @@ const Header = () => {
         <SheetTrigger className="md:hidden">
           <AlignJustify />
         </SheetTrigger>
-        <SheetContent className="bg-[#3563e9]">
-          <ul>
-            <li className="mt-2 text-white">
-              <Link href="/">HomePage</Link>
-            </li>
-            <li className="mt-2 text-white">
-              <Link href="/category">Category</Link>
-            </li>
-            <li className="mt-2 text-white">
-              <Link href="/cardetail">CarDetails</Link>
-            </li>
-            <li className="mt-2 text-white">
-              <Link href="/payment">Payment</Link>
-            </li>
-          </ul>
+        <SheetContent className="bg-white">
+            <h1 className="text-blue-600">Car Rent Website</h1>
           <SheetHeader>
             <SheetTitle></SheetTitle>
             <SheetDescription></SheetDescription>

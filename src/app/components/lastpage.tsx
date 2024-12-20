@@ -12,7 +12,7 @@ export default function Page() {
             {/* Menu Items */}
             <li className="flex items-center px-4 py-2 bg-blue-600 font-semibold">
               <Image
-                src="/images/home.png" /* Replace with your path */
+                src="/images/home.png" 
                 alt="home Icon"
                 height={500}width={500}
                 className="w-6 h-6 mr-3"
@@ -84,7 +84,7 @@ export default function Page() {
 
             <li className="flex items-center px-4 py-2  text-gray-500">
               <Image
-                src="/images/setting.png" /* Replace with your path */
+                src="/images/setting.png"
                 alt="setting Icon"
                 height={500}width={500}
                 className="w-6 h-6 mr-3"
@@ -94,7 +94,7 @@ export default function Page() {
 
             <li className="flex items-center px-4 py-2  text-gray-500">
               <Image
-                src="/images/info-circle.png" /* Replace with your path */
+                src="/images/info-circle.png" 
                 alt="info circle Icon"
                 height={500}width={500}
                 className="w-6 h-6 mr-3"
@@ -104,17 +104,17 @@ export default function Page() {
 
             <li className="flex items-center px-4 py-2  text-gray-500">
               <Image
-                src="/images/briefcase.png" /* Replace with your path */
+                src="/images/briefcase.png" 
                 alt="briefcase Icon"
                 height={500}width={500}
                 className="w-6 h-6 mr-3"
               />
               Dark Mode
               <Image
-                src="/images/darkmode.png" /* Replace with your path */
+                src="/images/darkmode.png" 
                 alt="home Icon"
                 height={500}width={500}
-                className="w-18 h-8 ml-2 mr-3"
+                className="w-auto h-auto ml-2 mr-3"
               />
             </li>
             
@@ -122,7 +122,7 @@ export default function Page() {
             
             <li className="flex items-center px-4 py-2  mt-20 font-semibold">
               <Image
-                src="/images/logout.png" /* Replace with your path */
+                src="/images/logout.png" 
                 alt="logout Icon"
                 height={500}width={500}
                 className="w-6 h-6 mr-3"
@@ -138,7 +138,7 @@ export default function Page() {
 
     
 
-
+                           {/* center div with map img */}
 
 
     
@@ -153,7 +153,7 @@ export default function Page() {
             src="/images/maps.png"
             alt="Map"
             height={500}width={500}
-            className="w-full h-56 object-contain rounded-lg mb-6"
+            className="w-full h-auto object-contain rounded-lg mb-6"
           />
 
           {/* Car Section */}
@@ -199,14 +199,14 @@ export default function Page() {
               <h2 className="text-xl font-semibold text-gray-800">Top 5 Car Rental</h2>
               <div className="text-gray-400 text-lg font-bold">...</div>
             </div>
-
+                                
             <div className="flex items-start">
               <div className="relative flex items-center justify-center w-5/12">
                 <Image
                   src="/images/chart.png"
                   alt="Chart"
                   height={500}width={500}
-                  className="w-32 h-32 sm:w-40 sm:h-40"
+                  className="w-auto h-auto"
                 />
                 <div className="absolute text-center">
                   <p className="text-2xl font-bold text-gray-800">72,030</p>
@@ -285,6 +285,48 @@ export default function Page() {
               <div className="text-right">
                 <p className="text-sm text-gray-500">19 July</p>
                 <p className="text-lg font-semibold text-gray-800">$99.00</p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center border-t py-4">
+              <div className="flex items-center">
+                <Image src="/images/car1.png" alt="Car 1"  height={500}width={500} className="w-20 h-12 rounded-md" />
+                <div className="ml-4">
+                  <h3 className="font-medium text-gray-800">Nissan GT-R</h3>
+                  <p className="text-sm text-gray-500">Sport Car</p>
+                </div>
+              </div>
+              <div className="text-right">
+                <p className="text-sm text-gray-500">20 July</p>
+                <p className="text-lg font-semibold text-gray-800">$80.00</p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center border-t py-4">
+              <div className="flex items-center">
+                <Image src="/images/car1.png" alt="Car 1"  height={500}width={500} className="w-20 h-12 rounded-md" />
+                <div className="ml-4">
+                  <h3 className="font-medium text-gray-800">Nissan GT-R</h3>
+                  <p className="text-sm text-gray-500">Sport Car</p>
+                </div>
+              </div>
+              <div className="text-right">
+                <p className="text-sm text-gray-500">20 July</p>
+                <p className="text-lg font-semibold text-gray-800">$80.00</p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center border-t py-4">
+              <div className="flex items-center">
+                <Image src="/images/car1.png" alt="Car 1"  height={500}width={500} className="w-20 h-12 rounded-md" />
+                <div className="ml-4">
+                  <h3 className="font-medium text-gray-800">Nissan GT-R</h3>
+                  <p className="text-sm text-gray-500">Sport Car</p>
+                </div>
+              </div>
+              <div className="text-right">
+                <p className="text-sm text-gray-500">20 July</p>
+                <p className="text-lg font-semibold text-gray-800">$80.00</p>
               </div>
             </div>
           </div>

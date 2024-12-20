@@ -178,7 +178,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-[#F6F7F9] mb-8">
+    <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 bg-[#F6F7F9] mb-8">
       {cardData.map((card, index) => (
         <div key={index} className="bg-white h-[320px] w-[250px] mt-6 mx-auto rounded-md shadow-md">
           <div className="flex justify-between">

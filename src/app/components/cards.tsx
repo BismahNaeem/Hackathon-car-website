@@ -45,24 +45,11 @@ const HeroSection = () => {
       price: '$85.5/',
       originalPrice: '$90.00',
     },
-    {
-      title: 'Lamborghini',
-      subtitle: 'luxury',
-      heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
-      gasImage: '/images/gas-station.png',
-      gasText: '75l',
-      manualImage: '/images/car (1).png',
-      manualText: 'automatic',
-      peopleImage: '/images/profile.png',
-      peopleText: '4 people',
-      price: '$100.0/',
-      originalPrice: '$110.00',
-    },]
+    ]
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12 mb-6">
           {cardData.map((card, index) => (
-            <div key={index} className="bg-white h-[320px] w-[250px] mt-6 mx-auto rounded-md shadow-md">
+            <div key={index} className="bg-white h-[320px] w-[270px] mt-6 mx-auto rounded-md shadow-md">
               <div className="flex justify-between">
                 <ul>
                   <li className="ml-2 mt-2 text-1 font-bold xl">{card.title}</li>

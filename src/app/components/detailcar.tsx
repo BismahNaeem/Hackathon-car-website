@@ -6,7 +6,7 @@ const YourComponent = () => {
   return (
     <div className="  flex flex-wrap gap-x-4 ">
       {/* Main Div with Blue Background */}
-      <div className="bg-blue-500 h-[360px] w-[400px] p-4 flex flex-col items-start justify-center rounded-md">
+      <div className="bg-blue-500 h-[360px] w-[25rem]  ml-8  lg:w-[400px] p-4 flex flex-col items-start justify-center rounded-md">
         {/* Heading */}
         <h1 className="text-white text-3xl font-semibold text-left">
           Sports car with the best <br />
@@ -26,7 +26,7 @@ const YourComponent = () => {
       </div>
 
       {/* Right Side Div with bg-white */}
-      <div className="bg-white h-auto w-[400px] p-4 rounded-md">
+      <div className="bg-white h-auto  w-[25rem] ml-8 lg:w-[400px] p-4 rounded-md lg:ml-0">
         {/* Content of the Right Side Div */}
         <div className="flex justify-end">
           <Image src="/images/like.png" alt="Heart Icon" height={100} width={500} className="w-6 h-6" />
@@ -91,7 +91,7 @@ const YourComponent = () => {
       </div>
 
       {/* Reviews Section */}
-      <div className="bg-white h-auto p-6 flex flex-col mt-2 w-full sm:w-[100%] md:w-[1016px]">
+      <div className="bg-white rounded-lg mr-6 h-auto p-6 flex flex-col mt-2 max-w-4xl sm:w-[100%] md:w-[1016px]">
         {/* Left Side of the Div */}
         <div className='flex gap-x-4'>
           <h1 className='mt-2 font-bold'>Reviews</h1>

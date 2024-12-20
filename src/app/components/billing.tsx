@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const RentalInfo: React.FC = () => {
   return (
-    <div className="h-auto w-full max-w-4xl bg-white p-6 flex flex-col space-y-6 ">
+    <div className="h-auto w-full max-w-4xl rounded-lg  ml-2  bg-white p-6 flex flex-col space-y-6 ">
       {/* Header Section */}
       <div className="flex justify-between items-center">
         {/* Rental Info Title */}
@@ -20,24 +20,24 @@ const RentalInfo: React.FC = () => {
       {/* Pickup Section */}
       <div className="flex items-center gap-x-4">
         {/* Pickup Image */}
-        <div className="flex items-center gap-x-2">
+        <div className="flex items-center gap-x-2 pt-4">
           <Image
-            src="/path-to-your-pickup-image.jpg"
+            src="/images/mark.png"
             alt="Pickup"
-            height={100}width={100}
-            className="h-12 w-12"
+            height={500}width={500}
+            className="h-6 w-6"
           />
           <p className="text-lg font-medium text-gray-700">PickUp</p>
         </div>
       </div>
 
       {/* Form for Pickup */}
-      <div className="flex flex-col sm:flex-row gap-x-4 gap-y-6">
+      <div className="flex flex-col sm:flex-row gap-x-4 gap-y-6 ">
         {/* Location */}
-        <div className="flex flex-col flex-1">
+        <div className="flex flex-col flex-1 ">
           <label
             htmlFor="pickupLocation"
-            className="text-sm font-medium text-gray-700"
+            className="text-1xl  font-bold  text-black "
           >
             Location
           </label>
@@ -45,7 +45,7 @@ const RentalInfo: React.FC = () => {
             id="pickupLocation"
             type="text"
             placeholder="Select your location"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3 bg-gray-200"
           />
         </div>
 
@@ -53,7 +53,7 @@ const RentalInfo: React.FC = () => {
         <div className="flex flex-col flex-1">
           <label
             htmlFor="pickupDate"
-            className="text-sm font-medium text-gray-700"
+            className="text-1xl  font-bold  text-black"
           >
             Date
           </label>
@@ -61,7 +61,7 @@ const RentalInfo: React.FC = () => {
             id="pickupDate"
             type="text"
             placeholder="Select your date"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3 bg-gray-200"
           />
         </div>
       </div>
@@ -71,7 +71,7 @@ const RentalInfo: React.FC = () => {
         <div className="flex flex-col flex-1">
           <label
             htmlFor="pickupTime"
-            className="text-sm font-medium text-gray-700"
+            className="text-1xl  font-bold  text-black"
           >
             Time
           </label>
@@ -79,22 +79,22 @@ const RentalInfo: React.FC = () => {
             id="pickupTime"
             type="text"
             placeholder="Select your time"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3 bg-gray-200"
           />
         </div>
       </div>
 
       {/* Drop Off Section */}
-      <div className="flex items-center gap-x-4">
+      <div className="flex items-center gap-x-4 pt-10">
         {/* Drop Off Image */}
         <div className="flex items-center gap-x-2">
           <Image
-            src="/path-to-your-dropoff-image.jpg"
+            src="/images/mark.png"
             alt="Drop Off"
             height={100}width={100}
-            className="h-12 w-12"
+            className="h-6 w-6"
           />
-          <p className="text-lg font-medium text-gray-700">Drop Off</p>
+          <p className="text-lg font-medium  text-gray-700">Drop Off</p>
         </div>
       </div>
 
@@ -104,7 +104,7 @@ const RentalInfo: React.FC = () => {
         <div className="flex flex-col flex-1">
           <label
             htmlFor="dropoffLocation"
-            className="text-sm font-medium text-gray-700"
+            className="text-1xl  font-bold  text-black"
           >
             Location
           </label>
@@ -112,7 +112,7 @@ const RentalInfo: React.FC = () => {
             id="dropoffLocation"
             type="text"
             placeholder="Select your location"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3 bg-gray-200"
           />
         </div>
 
@@ -120,7 +120,7 @@ const RentalInfo: React.FC = () => {
         <div className="flex flex-col flex-1">
           <label
             htmlFor="dropoffDate"
-            className="text-sm font-medium text-gray-700"
+            className="text-1xl  font-bold  text-black"
           >
             Date
           </label>
@@ -128,7 +128,7 @@ const RentalInfo: React.FC = () => {
             id="dropoffDate"
             type="text"
             placeholder="Select your date"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3 bg-gray-200"
           />
         </div>
       </div>
@@ -138,7 +138,7 @@ const RentalInfo: React.FC = () => {
         <div className="flex flex-col flex-1">
           <label
             htmlFor="dropoffTime"
-            className="text-sm font-medium text-gray-700"
+            className="text-1xl  font-bold  text-black"
           >
             Time
           </label>
@@ -146,7 +146,7 @@ const RentalInfo: React.FC = () => {
             id="dropoffTime"
             type="text"
             placeholder="Select your time"
-            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3"
+            className="h-[56px] w-full md:w-[386px] border border-gray-300 rounded-md px-3 bg-gray-200"
           />
         </div>
       </div>

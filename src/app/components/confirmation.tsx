@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Confirmation: React.FC = () => {
   return (
-    <div className="h-[700px] w-[900px] p-6 bg-white">
+    <div className="h-auto w-auto max-w-4xl ml-2 rounded-lg p-6 bg-white">
       {/* Header Section */}
       <div className="flex justify-between items-center">
         {/* Confirmation Title */}
@@ -21,18 +21,18 @@ const Confirmation: React.FC = () => {
       {/* Agreement Section */}
       <div className="mt-8 space-y-6">
         {/* I Agree with Sending Marketing Emails */}
-        <div className="flex items-center gap-x-2">
-          <div className="h-6 w-6 border border-gray-500"></div>
-          <p className="text-sm text-gray-700">
+        <div className="flex items-center  bg-gray-200 gap-x-2 rounded-md h-10">
+          <div className="h-6 w-6 border ml-2 border-gray-500"></div>
+          <p className="text-1xl  font-bold  text-black ml-4">
             I agree with sending marketing and newsletter emails. No spam
             promised.
           </p>
         </div>
 
         {/* I Agree with Terms and Conditions */}
-        <div className="flex items-center gap-x-2">
-          <div className="h-6 w-6 border border-gray-500"></div>
-          <p className="text-sm text-gray-700">
+        <div className="flex items-center gap-x-2 bg-gray-200 rounded-md h-10">
+          <div className="h-6 w-6 border ml-2 border-gray-500"></div>
+          <p className="text-1xl font-bold text-black ml-4">
             I agree with our terms and conditions and privacy policy.
           </p>
         </div>
@@ -40,7 +40,7 @@ const Confirmation: React.FC = () => {
         {/* Rent Now Button */}
         <Link
         href="/lastpage">
-        <button className="bg-blue-500 text-white h-[56px] w-36  rounded-md mt-6">
+        <button className="bg-blue-800 text-white h-[56px] w-36  rounded-md mt-6">
           Rent Now
         </button></Link>
       </div>
@@ -48,17 +48,17 @@ const Confirmation: React.FC = () => {
       {/* Image Section */}
       <div className="mt-8 ">
         <Image
-          src="/path-to-your-image.jpg"
+          src="/images/security.png"
           alt="Confirmation"
           height={100}width={100}
-          className=" h-36 w-36 object-cover"
+          className=" h-auto mt-4 w-auto object-cover"
         />
       </div>
 
       {/* Data Saved and Security Information */}
       <div className="mt-0">
-        <h1 className="text-2xl font-semibold">All your data is saved</h1>
-        <p className="mt-2 text-lg text-gray-600">
+        <h1 className="text-1xl font-bold text-black">All your data is saved</h1>
+        <p className="mt-2 text-md text-gray-600">
           We are using the most advanced security to provide you the best
           experience ever. Enough said.
         </p>
