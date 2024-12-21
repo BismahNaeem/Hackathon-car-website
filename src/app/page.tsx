@@ -1,5 +1,4 @@
 import React from 'react'
-import Herosection from './components/herosection'
 import Carscard from "./components/carscard"
 
 import Timebar from './components/timebar'

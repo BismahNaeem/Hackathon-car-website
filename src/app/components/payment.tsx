@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const BillingInfo: React.FC = () => {
   return (
@@ -92,10 +93,11 @@ const BillingInfo: React.FC = () => {
       <div className="flex items-center space-x-4 mb-6">
         {/* Car Image */}
         <div className="w-20 h-16 bg-blue-600 rounded-md overflow-hidden">
-          <img
+          <Image
             src="/images/car2.png"
             alt="Car"
             className="object-contain w-full h-full"
+            height={500 }width={500}
           />
         </div>
 
