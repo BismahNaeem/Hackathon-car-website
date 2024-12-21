@@ -4,20 +4,20 @@ const Footer = () => {
   return (
     <div>
       {/* Top Section */}
-      <div className="flex flex-col justify-between bg-white mb-2 mt-20 px-6 md:px-12">
-        <div>
-          <h1 className="text-[#3563E9] text-2xl font-bold">MORENT</h1>
+      <div className=" lg:flex  justify-between    bg-white mb-2 mt-20 px-6 md:px-12">
+        <div className=' lg:flex   justify-between'>
+          <div className=''><h1 className="text-[#3563E9] text-2xl font-bold">MORENT</h1>
           <p className="mt-4 leading-[1.5] text-sm text-[#90A3BF] max-w-[300px]">
             Our vision is to provide convenience and help increase your sales business.
-          </p>
-        </div>
+          </p></div>
+        
 
         {/* Links Section */}
-        <div className="mt-8 flex flex-col gap-y-10">
+        <div className=" flex   gap-y-10  lg:ml-96 ">
           {/* About and Community - Horizontally aligned on small screens */}
-          <div className="sm:flex sm:gap-x-12 sm:justify-between">
+          <div className="sm:flex mt-4 mx-auto flex-col lg:flex-row flex sm:gap-x-12 sm:justify-between ">
             {/* About Section */}
-            <ul className="text-center sm:text-left">
+            <ul className="text-center  sm:text-left">
               <h1 className="text-lg font-bold">About</h1>
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">How it works</li>
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Featured</li>
@@ -33,11 +33,11 @@ const Footer = () => {
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Podcast</li>
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Invite a friend</li>
             </ul>
-          </div>
+            
 
-          {/* Socials Section */}
-          <div>
-            <ul className="text-center md:text-left">
+
+            <div>
+            <ul className="text-center  md:text-left">
               <h1 className="text-lg font-bold">Socials</h1>
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Discord</li>
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Instagram</li>
@@ -45,6 +45,10 @@ const Footer = () => {
               <li className="text-[#90A3BF] mt-4 text-sm md:text-base">Facebook</li>
             </ul>
           </div>
+          </div>
+
+          </div>
+         
         </div>
       </div>
 

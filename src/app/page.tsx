@@ -1,5 +1,6 @@
 import React from 'react'
 import Herosection from './components/herosection'
+import Carscard from "./components/carscard"
 
 import Timebar from './components/timebar'
 import Herocards from './components/herocards'
@@ -8,7 +9,7 @@ const page :React.FC = () => {
     <div>
        <Herocards />
        <Timebar />
-     <div className=''><Herosection /></div>
+     <div className=''><Carscard/></div>
     
       
     </div>

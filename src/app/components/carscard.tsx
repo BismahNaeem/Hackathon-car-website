@@ -10,7 +10,7 @@ const HeroSection = () => {
     {
       title: 'Koenigsegg',
       subtitle: 'sport',
-      heartImage: '/images/heart.png',
+      heartImage: '/images/like.png',
       carImage: '/images/car.png',
       gasImage: '/images/gas-station.png',
       gasText: '70l',
@@ -38,7 +38,7 @@ const HeroSection = () => {
     {
       title: 'Ferrari',
       subtitle: 'sports',
-      heartImage: '/images/heart.png',
+      heartImage: '/images/like.png',
       carImage: '/images/car3.png',
       gasImage: '/images/gas-station.png',
       gasText: '60l',
@@ -47,102 +47,138 @@ const HeroSection = () => {
       peopleImage: '/images/profile.png',
       peopleText: '2 people',
       price: '$85.5/',
-      originalPrice: '$90.00',
-    },
-    
-   
-   
-    
-    {
-      title: 'Koenigsegg',
-      subtitle: 'sport',
-      heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
-      gasImage: '/images/gas-station.png',
-      gasText: '70l',
-      manualImage: '/images/car (1).png',
-      manualText: 'manual',
-      peopleImage: '/images/profile.png',
-      peopleText: '6 people',
-      price: '$72.5/',
-      
-    },
-   
-    {
-      title: 'Koenigsegg',
-      subtitle: 'sport',
-      heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
-      gasImage: '/images/gas-station.png',
-      gasText: '70l',
-      manualImage: '/images/car (1).png',
-      manualText: 'manual',
-      peopleImage: '/images/profile.png',
-      peopleText: '6 people',
-      price: '$72.5/',
-      
-    }, {
-      title: 'Koenigsegg',
-      subtitle: 'sport',
-      heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
-      gasImage: '/images/gas-station.png',
-      gasText: '70l',
-      manualImage: '/images/car (1).png',
-      manualText: 'manual',
-      peopleImage: '/images/profile.png',
-      peopleText: '6 people',
-      price: '$72.5/',
-      
-    },
-   
-    
-    {
-      title: 'Koenigsegg',
-      subtitle: 'sport',
-      heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
-      gasImage: '/images/gas-station.png',
-      gasText: '70l',
-      manualImage: '/images/car (1).png',
-      manualText: 'manual',
-      peopleImage: '/images/profile.png',
-      peopleText: '6 people',
-      price: '$72.5/',
       
     },
     {
-      title: 'Koenigsegg',
-      subtitle: 'sport',
+      title: 'Lamborghini',
+      subtitle: 'luxury',
       heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
+      carImage: '/images/car4.png',
       gasImage: '/images/gas-station.png',
-      gasText: '70l',
+      gasText: '75l',
+      manualImage: '/images/car (1).png',
+      manualText: 'automatic',
+      peopleImage: '/images/profile.png',
+      peopleText: '4 people',
+      price: '$100.0/',
+      originalPrice: '$110.00',
+    },
+    {
+      title: 'Porsche',
+      subtitle: 'sports',
+      heartImage: '/images/like.png',
+      carImage: '/images/car5.png',
+      gasImage: '/images/gas-station.png',
+      gasText: '65l',
       manualImage: '/images/car (1).png',
       manualText: 'manual',
       peopleImage: '/images/profile.png',
-      peopleText: '6 people',
-      price: '$72.5/',
+      peopleText: '4 people',
+      price: '$95.0/',
+      originalPrice: '$105.00',
+    },
+    {
+      title: 'Bugatti',
+      subtitle: 'luxury',
+      heartImage: '/images/heart.png',
+      carImage: '/images/car6.png',
+      gasImage: '/images/gas-station.png',
+      gasText: '80l',
+      manualImage: '/images/car (1).png',
+      manualText: 'automatic',
+      peopleImage: '/images/profile.png',
+      peopleText: '2 people',
+      price: '$120.0/',
       
     },
     {
-      title: 'Koenigsegg',
-      subtitle: 'sport',
-      heartImage: '/images/heart.png',
-      carImage: '/images/car.png',
+      title: 'McLaren',
+      subtitle: 'sports',
+      heartImage: '/images/like.png',
+      carImage: '/images/car7.png',
       gasImage: '/images/gas-station.png',
-      gasText: '70l',
+      gasText: '50l',
       manualImage: '/images/car (1).png',
       manualText: 'manual',
       peopleImage: '/images/profile.png',
-      peopleText: '6 people',
-      price: '$72.5/',
+      peopleText: '2 people',
+      price: '$110.0/',
+      
+    },
+    {
+      title: 'BMW',
+      subtitle: 'luxury',
+      heartImage: '/images/heart.png',
+      carImage: '/images/car8.png',
+      gasImage: '/images/gas-station.png',
+      gasText: '70l',
+      manualImage: '/images/car (1).png',
+      manualText: 'automatic',
+      peopleImage: '/images/profile.png',
+      peopleText: '4 people',
+      price: '$85.0/',
+      
+    },
+    {
+      title: 'Aston Martin',
+      subtitle: 'luxury',
+      heartImage: '/images/like.png',
+      carImage: '/images/car9.png',
+      gasImage: '/images/gas-station.png',
+      gasText: '60l',
+      manualImage: '/images/car (1).png',
+      manualText: 'manual',
+      peopleImage: '/images/profile.png',
+      peopleText: '4 people',
+      price: '$105.0/',
+      originalPrice: '$115.00',
+    },
+    {
+      title: 'Bentley',
+      subtitle: 'luxury',
+      heartImage: '/images/heart.png',
+      carImage: '/images/car10.png',
+      gasImage: '/images/gas-station.png',
+      gasText: '80l',
+      manualImage: '/images/car (1).png',
+      manualText: 'automatic',
+      peopleImage: '/images/profile.png',
+      peopleText: '5 people',
+      price: '$125.0/',
+      
+    },
+    {
+      title: 'Jaguar',
+      subtitle: 'luxury',
+      heartImage: '/images/like.png',
+      carImage: '/images/car11.png',
+      gasImage: '/images/gas-station.png',
+      gasText: '70l',
+      manualImage: '/images/car (1).png',
+      manualText: 'automatic',
+      peopleImage: '/images/profile.png',
+      peopleText: '4 people',
+      price: '$95.0/',
+      
+    },
+    {
+      title: 'Rolls Royce',
+      subtitle: 'luxury',
+      heartImage: '/images/heart.png',
+      carImage: '/images/car (10).png',
+      gasImage: '/images/gas-station.png',
+      gasText: '80l',
+      manualImage: '/images/car (1).png',
+      manualText: 'automatic',
+      peopleImage: '/images/profile.png',
+      peopleText: '5 people',
+      price: '$150.0/',
       
     },
   ];
 
   return (
-    <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 bg-[#F6F7F9] mb-8">
+    <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 bg-[#F6F7F9] mb-8">
       {cardData.map((card, index) => (
         <div key={index} className="bg-white h-[320px] w-[250px] mt-6 mx-auto rounded-md shadow-md">
           <div className="flex justify-between">
@@ -208,7 +244,7 @@ const HeroSection = () => {
                 <h1 className="font-bold text-2xl ml-2">{card.price}</h1>
                 <p className="mt-2">day</p>
               </div>
-               <p className="text-sm text-[#90A3BF] ml-2 line-through">{card.originalPrice}</p> 
+              <p className="text-sm text-[#90A3BF] ml-2 line-through">{card.originalPrice}</p>
             </div>
             <Link
             href="/detailcar">
@@ -219,7 +255,14 @@ const HeroSection = () => {
       ))}
 
 
-
+<div className="  bg-gray-100 mb-12 mt-4  ml-[5rem] sm:ml-[15rem] lg:ml-[35rem] md:ml-[20rem]">
+      <Link 
+        href="/category" 
+        className="  flex items-center justify-center h-12 w-40 bg-[#3563e9] text-white text-lg font-medium rounded hover:bg-blue-600 transition"
+      >
+        Show More Cars
+      </Link>
+    </div>
   
   
 </div>
